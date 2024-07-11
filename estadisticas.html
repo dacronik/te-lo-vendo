@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>te la vendo - estadisticas</title>
+    <!-- boostrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- data table link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="/">Te lo vendo</a>
+          <button
+            class="navbar-toggler border border-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-center fw-bold fs-4"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav ms-auto mb-2">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="/"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/estadisticas.html"
+                  >Reportes</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- TABLA SECTION ESTADISTICAS -->
+    <div class="container my-5">
+      <h1 class="text-center py-3">Estadisticas</h1>
+      <table
+        id="estadisticas"
+        class="table table-striped table-bordered"
+        style="width: 100%"
+      >
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Stock</th>
+            <th scope="col">Precio de costo</th>
+            <th scope="col">Precio venta</th>
+            <th scope="col">Utilidades</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Impresora HP</td>
+            <td>50</td>
+            <td>$120.000</td>
+            <td>$180.000</td>
+            <td>$60.000</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Notebook HP</td>
+            <td>150</td>
+            <td>$350.000</td>
+            <td>$550.000</td>
+            <td>$200.000</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Router Link</td>
+            <td>200</td>
+            <td>$30.000</td>
+            <td>$60.000</td>
+            <td>$30.000</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Monitor Samsung 17plg</td>
+            <td>100</td>
+            <td>$110.000</td>
+            <td>$190.000</td>
+            <td>$80.000</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Mouse Gear</td>
+            <td>300</td>
+            <td>$8.000</td>
+            <td>$15.000</td>
+            <td>$7.000</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Silla Gamer Asus</td>
+            <td>250</td>
+            <td>$80.000</td>
+            <td>$280.000</td>
+            <td>$200.000</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Webcam trotter</td>
+            <td>80</td>
+            <td>$30.000</td>
+            <td>$120.000</td>
+            <td>$90.000</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Teclado Force</td>
+            <td>80</td>
+            <td>$8.000</td>
+            <td>$30.000</td>
+            <td>$22.000</td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td>Audifonos Dragon</td>
+            <td>200</td>
+            <td>$15.000</td>
+            <td>$45.000</td>
+            <td>$30.000</td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td>Disco duro externo</td>
+            <td>180</td>
+            <td>$20.000</td>
+            <td>$80.000</td>
+            <td>$60.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer class="pie-linea bg-dark p-4 text-white text-center">
+      Grupo 4 - 2024 - Integrantes : Glenn Garcia | Adolfo Campos | Daniel
+      Salazar | Gerardo Ortiz
+    </footer>
+    <!-- jquery js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- boostrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- datatable js -->
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+    <!-- custom JS -->
+    <script src="/assets/js/estadisticas.js"></script>
+
+    <script src="assets/js/funciones.js"></script>
+  </body>
+</html>

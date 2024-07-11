@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="/">Te lo vendo</a>
+          <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center fw-bold fs-4" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="/">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/estadisticas.html">Reportes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="form-contacto container mb-5">
+      <h2 class="text-center py-4">Contacto</h2>
+      <div class="row mb-5">
+        <div class="col-xs-12 col-md-6 mx-auto">
+          <form class="border px-4 rounded py-4 shadow" id="contactForm" type="submit">
+            <div class="mb-3">
+              <label for="InputName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="InputName">
+              <div id="nameHelp" class="form-text text-danger d-none"></div>
+            </div>
+            <div class="mb-3">
+              <label for="InputEmail" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-danger d-none"></div>
+            </div>
+            <div class="mb-3">
+              <label for="Textarea" class="form-label">Ingrese su comentario</label>
+              <textarea class="form-control" id="Textarea" rows="3"></textarea>
+              <div id="textTareaHelp" class="form-text text-danger d-none"></div>
+            </div>
+            <div class="text-center">
+              <button type="" class="btn btn-primary mb-2 px-5">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>             
+    </section>
+    <footer class="pie-linea bg-dark p-4 text-white text-center">
+      Grupo 4 - 2024 - Integrantes : Glenn Garcia | Adolfo Campos | Daniel
+      Salazar | Gerardo Ortiz
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="./assets/js/funciones.js"></script>
+  </body>
+</html>
