@@ -9,8 +9,8 @@
 ### Requerimientos previos del inicio del proyecto
 
 1. El sitio debe tener su base en HTML5; usa esta estructura
-2. ● Agrega un título al sitio
-3. ● Bajo el título principal, agrega tres términos que serán la base para un menú que se
+2. Agrega un título al sitio
+3. Bajo el título principal, agrega tres términos que serán la base para un menú que se
 4. implementará más adelante Separa estos términos con algún carácter especial como “|”.
 5. Agrega una sección que defina un extracto de la empresa. Puedes considerar, por ejemplo, qué
    hace el negocio, dónde está ubicado, a qué rubro se dedica, entre otros.
