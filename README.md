@@ -27,3 +27,18 @@
    que contenga el nombre de usuario, el correo, y el mensaje que se envía.
    No se pide una acción
    específica al formulario, solo que se establezcan adecuadamente las etiquetas del respectivo caso.
+
+### 3.- Se aplicaron estilos CSS Básicos
+
+1. Se agrega CSS para que el sitio sea responsivo.
+2. Se le aplica estilo al menu.
+3. Se le aplica estilo al pie de pagina
+4. Se le aplica formato centrado a lasección que define el extracto de la empresa
+5. Se realiza estructura de las carpetas para organizarlas.
+
+### 4.- Implementación de framework Bootstrap
+1. Se agrega CDN Bootstrap.
+2. Se desarrolla un formulario de contacto.
+3. Se modifica el menu  principal, utilizando el que viene incorporado en el framework.
+4. Se agrega responsividad a las imagenes utilizando clases de Bootstrap.
+5. Se eliminan estilos antes dado con archivo CSS y se utilizan clases de Bootstrap para esto.
