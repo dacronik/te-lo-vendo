@@ -42,3 +42,22 @@
 3. Se modifica el menu  principal, utilizando el que viene incorporado en el framework.
 4. Se agrega responsividad a las imagenes utilizando clases de Bootstrap.
 5. Se eliminan estilos antes dado con archivo CSS y se utilizan clases de Bootstrap para esto.
+
+### 5.- Se Implementa Javascript en el proyecto
+1. Se crea un nuevo archivo de nombre funciones.js.
+2. Se crea una función en JavaScript que permita validar todos los campos del formulario de
+   contacto al momento de hacer clic en el botón de procesamiento. Esta funcion indica que campos
+   están vacíos.
+3. Se enlaza este nuevo archivo al documento HTML respectivo.
+4. Se enlaza este nuevo archivo a todos los documentos de proyecto 
+
+### 6.- Se implementa el framework jQuery
+1. Se crea un nuevo documento HTML de nombre estadísticas.html
+2. Se aplica sobre ésta el mismo estilo de las otras páginas.
+3. Se crea una tabla de cinco columnas y al menos diez filas. Con datos escogidos por el equipo.
+4. Se utliza el framework de JQuery para incorporacion de elementos dinamicos en el 
+   nuevo documento html mediante el manejo basico de objetos y eventos del DOM
+4. Sobre la tabla creada en el punto anterior, aplica el plugin DataTable.
+5. Se verifica el resultado obtenido.
+6. Los archivos CSS y JS del plugin son llamados directamente desde un CDN.
+
